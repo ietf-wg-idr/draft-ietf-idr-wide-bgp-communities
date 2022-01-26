@@ -712,7 +712,7 @@ header itself plus total length of 4 octet values.</t>
 
 <section title="BGP Community Container Atoms" anchor="atoms">
 
-<t>Some types of BGP Community Contaners, for example BGP Wide Communities,
+<t>Some types of BGP Community Containers, for example BGP Wide Communities,
 will act on and hence need to encode some distinct Atoms of data. Use of
 Atoms is solely subject to definition of the specific BGP Container type.  
 Atoms are encoded as TLVs, where each TLV has the following format:</t>
