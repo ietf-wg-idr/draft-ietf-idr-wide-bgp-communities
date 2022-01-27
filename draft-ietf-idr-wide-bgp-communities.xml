@@ -374,7 +374,7 @@ registration policies.</t>
 
 <t>Flags are defined globally and apply to all container types.</t> 
 
-<t>Bit 0 (T bit) Transitivity bit:
+<t>The T (Transitivity) bit:
 <list><t>
 When not set (value 0), the community in 
 the container is transitive across AS boundaries, but not across an
@@ -386,7 +386,7 @@ arbitrary set of connected ASes, possibly under control of a single entity.
 How such an administrative boundary is determined is out of scope of this
 document.</t>
 </list></t> 
-<t>Bit 1 (C bit) Confederation bit:
+<t>The C (Confederation) bit:
 <list><t>The confederation bit is used to manage the propagation 
 scope of a given BGP Wide Community across confederation boundaries.</t>
 <t>When not set (value 0) community 
